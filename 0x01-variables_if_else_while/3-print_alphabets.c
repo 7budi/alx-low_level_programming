@@ -12,7 +12,7 @@ for (ch = 'a'; ch <= 'z'; ch++)
 {
 	putchar(ch);
 }
-for (chh = 'A';chh <= 'Z'; chh++)
+for (chh = 'A'; chh <= 'Z'; chh++)
 {
 	putchar(chh);
 }
