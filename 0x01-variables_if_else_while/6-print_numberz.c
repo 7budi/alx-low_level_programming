@@ -6,19 +6,10 @@
  */
 int main(void)
 {
-	char ch = 'a';
-for (ch = 'a'; ch <= 'z'; ch++)
+       char ch = '0';
+for (ch = '0'; ch <= '9'; ch++)
 {
-	if (ch == 'e')
-	{
-		continue;
-	}
-	if (ch == 'q')
-	{
-		continue;
-	}
 	putchar(ch);
 }
-putchar('\n');
 return (0);
 }
