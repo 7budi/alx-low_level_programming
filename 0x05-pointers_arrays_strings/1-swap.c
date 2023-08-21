@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * main - Entry point
  * swap_int = A function that take swaps the taken numbers
- *
+ * main - Entry point
  * @a:given
  * @b:given
  */
