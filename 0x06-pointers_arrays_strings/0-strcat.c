@@ -1,10 +1,10 @@
 #include "main.h"
 #include <string.h>
-/**
- * _strcat - concatenate the two strings
+/*
+ * _strcat - concatenate two string
  *
- * @dest:string
- * @src:string
+ * @dest - string
+ * @src - string
  * Return: dest
  */
 char *_strcat(char *dest, char *src)
@@ -14,8 +14,8 @@ l1 = strlen(dest);
 l2 = strlen(src);
 for (int i = 0; i <= l2; i++)
 {
-dest[l2 + i] = src[i];
-dest[l1] = "\0";
+        dest[l2 + i] = src[i];
+        dest[l1] = *"\0";
 }
-return (dest);
+return dest;
 }
