@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include "variadic_functions.h"
 /**
- * print_string - print the string
+ * print_strings - print the string
  * @separator: separates b/t strings
  * @n:number of variable
  * @...:avariable number of string
