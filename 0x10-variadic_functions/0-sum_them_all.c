@@ -9,12 +9,12 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
+	va_list sum;
+
 	unsigned int i, j;
 
 	i = 0;
 	j = 0;
-	va_list sum;
-
 	va_start(sum, n);
 
 	for (i = 0; i < n; i++)
