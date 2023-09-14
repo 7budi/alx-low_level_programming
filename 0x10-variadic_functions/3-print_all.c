@@ -14,7 +14,7 @@ void print_all(const char * const format, ...)
 
 	va_start(list, format);
 	i = 0;
-	if(format)
+	if (format)
 	{
 		while (format[i])
 		{
@@ -24,14 +24,14 @@ void print_all(const char * const format, ...)
 					printf("%s%f", sep, va_arg(list, double));
 					break;
 				case 'i':
-					printf("%s%d", sep , va_arg(list, int));
+					printf("%s%d", sep, vzaa_arg(list, int));
 					break;
 				case 'c':
 					printf("%s%c", sep, va_arg(list, int));
 					break;
-				case "s":
-					str =  va_arg(list, char *);
-					if (str == NULL)
+				case 's':
+					str = va_arg(list, char *);
+					if (!str)
 						str = "(nil)";
 					printf("%s%s", sep, str);
 					break;
